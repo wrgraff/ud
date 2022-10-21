@@ -1,0 +1,32 @@
+.page-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    margin-bottom: -16px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.page-info__text {
+    display: block;
+    margin-bottom: 0;
+    color: #000;
+}
+
+@media screen and (min-width: 68.75em) {
+    .page-info {
+        position: absolute;
+        left: 32px;
+        right: 270px;
+        height: 32px;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 81.1875em) {
+    .page-info {
+        right: 32px;
+    }
+}
